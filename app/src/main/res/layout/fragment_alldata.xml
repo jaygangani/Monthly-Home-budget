@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/light_Backgound"
+tools:context=".Alldata">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="20">
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="5"
+        android:background="@drawable/row_background"
+        >
+        <TextView
+            android:layout_width="70dp"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:padding="5dp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/row_background"
+            android:textColor="@color/dark_Backgound"
+            android:text="Date"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_background"
+            android:id="@+id/catagory"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/dark_Backgound"
+            android:text="Catagory"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/disc"
+            android:background="@drawable/row_background"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/dark_Backgound"
+            android:text="Discription"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/amount"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/row_background"
+            android:gravity="center"
+            android:textColor="@color/dark_Backgound"
+            android:text="Amount"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/nodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/dark_Backgound"
+        android:text="No data Found"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alldata"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        />
+</LinearLayout>
+
+
+</RelativeLayout>

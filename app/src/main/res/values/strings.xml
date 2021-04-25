@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Monthly Budget</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="about">
+    Making a budget is a key piece of a strong financial foundation. Having a budget helps you manage your money, control your spending, save more money, pay off debt, or stay out of debt.
+    Without an accurate picture of what is coming into and going out of your bank account, you can easily overspend or find yourself relying on credit cards and loans to pay your bills. If you already have a budget, now is a good time to update it.
+    This App Helps the user to track there daily household expanse and user can also check monthly expanse.
+    </string>
+
+    <string-array name="Category">
+        <item>Stationary</item>
+        <item>Grossary</item>
+        <item>Transportation</item>
+        <item>House Rent</item>
+        <item>Extra</item>
+    </string-array>
+
+</resources>

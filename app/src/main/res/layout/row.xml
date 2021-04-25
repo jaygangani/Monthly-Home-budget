@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    >
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowdate"
+        android:paddingVertical="5dp"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dark_Backgound"
+        android:background="@drawable/row_background"
+        android:text="Date"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowcatagory"
+        android:layout_weight="1"
+        android:paddingVertical="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dark_Backgound"
+        android:background="@drawable/row_background"
+
+        android:text="catagory"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowdisc"
+        android:layout_weight="1"
+        android:paddingVertical="5dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/row_background"
+        android:textColor="@color/dark_Backgound"
+        android:text="discriptiom"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowamount"
+        android:layout_weight="1"
+        android:paddingVertical="5dp"
+        android:background="@drawable/row_background"
+        android:gravity="center_horizontal"
+        android:textColor="@color/purple_500"
+        android:text="Amount"/>
+
+
+
+
+
+</LinearLayout>
